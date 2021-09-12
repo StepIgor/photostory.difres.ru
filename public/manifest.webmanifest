@@ -1,0 +1,17 @@
+{
+  "short_name": "PhotoStory",
+  "name": "PhotoStory",
+  "description": "Публикация изображений",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "#EEEEEE",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#EEEEEE"
+}
