@@ -1,2 +1,2 @@
 ## PhotoStory
-[Open Application](https://photostory.difres.ru)
+[Open the application](https://photostory.difres.ru)
