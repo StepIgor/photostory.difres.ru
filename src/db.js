@@ -72,6 +72,12 @@ export let posts = {
         'date': '02.09.2021 15:10',
         'comment': 'Forza Horizon 5',
         'content': [20, 21, 22, 23, 24, 25]
+    },
+    8: {
+        'user': 1,
+        'date': '24.09.2021 16:10',
+        'comment': 'Horizon Zero Dawn',
+        'content': [26, 27]
     }
 }
 
