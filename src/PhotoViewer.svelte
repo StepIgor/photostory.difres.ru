@@ -12,7 +12,11 @@
 
     export function show(p) {
         post = parseInt(p)
-        pics = posts[post]['content']
+        pics = posts[post]['content'].map((number) => {
+            let image = new Image();
+            image.src = "https://photostorycontent.difres.ru/content/" + number + ".png"
+            return image
+        })
         pic = 0
         coms = Object.keys(comments).filter((c) => parseInt(comments[c]['post']) == parseInt(post))
         visible = true
@@ -44,7 +48,7 @@
 {#if visible}
     <div in:fly="{{x:750}}" out:fly="{{x:750}}" class="back grey lighten-3">
         <div class="img-container">
-            <img class="responsive-img" src="https://photostorycontent.difres.ru/content/{pics[pic]}.png"/>
+            <img class="responsive-img" src={pics[pic].src}/>
             <div on:click={() => change_picture('next')} class="right-slide">
                 <table>
                     <tr>
