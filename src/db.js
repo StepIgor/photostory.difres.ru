@@ -4,11 +4,11 @@ export let users = {
     1: {
         'name': 'Игорь',
         'username': 'Darkness',
-        'description': 'Первый пользователь нового сервиса PhotoStory, он же разработчик',
+        'description': 'Первый проверочный аккаунт сервиса',
         'regDate': '06.08.2021',
         'country': 'Россия',
         'email': 'darkness@drkteam.ru',
-        'status': 'Кодинг в сочетании с компьютерными играми'
+        'status': 'Публикация материалов на различные темы'
     },
     2: {
         'name': 'Виктор Алексеев',
@@ -70,7 +70,7 @@ export let posts = {
     7: {
         'user': 1,
         'date': '02.09.2021 15:10',
-        'comment': 'Forza Horizon 5',
+        'comment': 'Forza Horizon 4',
         'content': [20, 21, 22, 23, 24, 25]
     },
     8: {
